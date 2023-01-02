@@ -1,0 +1,7 @@
+# Not pinning numpy will cause type alias errors,
+# similar to https://stackoverflow.com/questions/74893742/how-to-solve-attributeerror-module-numpy-has-no-attribute-bool
+numpy==1.23
+coremltools
+# 2.11.0 is not supported by coremltools yet
+tensorflow==2.10.0
+
