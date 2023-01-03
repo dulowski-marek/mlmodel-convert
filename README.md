@@ -25,11 +25,15 @@ Note that the SavedModel folder name and the `.class_labels` file name should ma
 For example, for a model named `DetectColor`, the directory name should be `DetectColor` and
 the `.class_labels` file should be named `DetectColor.class_labels`.
 
+<img width="832" alt="image" src="https://user-images.githubusercontent.com/17051704/210370849-8d0ddd0a-d5e6-4bfa-8589-1f466eb3a83c.png">
+
 ### Convert the model
 1. Run the Docker container using `make model_name=DetectColor convert` where `model_name` is the name of the model directory.
 2. The docker container will be built and run the `convert.py` script.
 
 The output of that should be `out/DetectColor.mlmodel`.
+
+<img width="1728" alt="image" src="https://user-images.githubusercontent.com/17051704/210371717-a4939f55-0e03-4580-a947-19ba6e2778e5.png">
 
 ## License
 MIT
